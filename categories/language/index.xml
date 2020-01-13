@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Language on Jackiebin&#39;s blog</title>
+    <link>http://localhost:1313/categories/language/</link>
+    <description>Recent content in Language on Jackiebin&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Jan 2020 15:58:41 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/language/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown 基本语法</title>
+      <link>http://localhost:1313/post/markdown-basic/</link>
+      <pubDate>Mon, 13 Jan 2020 15:58:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/markdown-basic/</guid>
+      <description>&lt;p&gt;Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;标题&lt;/p&gt;
+&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
+&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
+&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;缩进
+使用 三个缩进空格 表示缩进。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;外链接&lt;/p&gt;
+&lt;p&gt;使用 [描述](链接地址) 为文字增加外链接。&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;p&gt;这是去往 &lt;a href=&#34;https://jackiebin.github.io/&#34;&gt;本人博客&lt;/a&gt; 的链接。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;插入图像&lt;/p&gt;
+&lt;p&gt;使用 ![描述](图片链接地址) 插入图像。&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./picture/gnu.png&#34; alt=&#34;GNU&#34; title=&#34;Gnu&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;换行与段落&lt;/p&gt;
+&lt;p&gt;在markdown语言中,唯一决定两行文字是否是段落的,就在于这两行文字之间是否有空行.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;删除线&lt;/p&gt;
+&lt;p&gt;使用 ~~ 表示删除线。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;这是一段错误的文本。&lt;/del&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;参考资料&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;表格&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;姓名&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;技能&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;排行&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;刘备&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;哭&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;大哥&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;关羽&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;打&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;二哥&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;张飞&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;骂&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;三弟&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;文字引用&lt;/p&gt;
+&lt;p&gt;使用 &amp;gt; 表示文字引用。&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;野火烧不尽，春风吹又生。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;行内代码块&lt;/p&gt;
+&lt;p&gt;使用 &lt;code&gt;代码&lt;/code&gt; 表示行内代码块。&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;p&gt;让我们聊聊 &lt;code&gt;html&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;代码块&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;使用 四个缩进空格 表示代码块。&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;这是一个代码块，此行左侧有四个不可见的空格。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;参考资料&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

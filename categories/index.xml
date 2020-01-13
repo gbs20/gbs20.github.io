@@ -6,9 +6,28 @@
     <description>Recent content in Categories on Jackiebin&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Mon, 13 Jan 2020 15:58:41 +0800</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Language</title>
+      <link>http://localhost:1313/categories/language/</link>
+      <pubDate>Mon, 13 Jan 2020 15:58:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emacs</title>
+      <link>http://localhost:1313/categories/emacs/</link>
+      <pubDate>Mon, 13 Jan 2020 11:47:38 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/emacs/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
